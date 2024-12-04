@@ -1,18 +1,12 @@
-import { addComponent, addImports, addImportsDir, createResolver, defineNuxtModule, installModule } from '@nuxt/kit';
+import { addComponent, addImports, createResolver, defineNuxtModule, installModule } from '@nuxt/kit';
 
-export interface ModuleOptions {}
-
-export default defineNuxtModule<ModuleOptions>({
+export default defineNuxtModule({
   meta: {
-    name: 'nuxt-snackbar-messages',
+    name: 'snackbar-messages',
     configKey: 'snackbarMessages',
   },
 
   async setup(_options, _nuxt) {
-    const resolver = createResolver(
-      import.meta.url,
-    );
-
     await installModule(
       '@pinia/nuxt',
     );
@@ -20,25 +14,41 @@ export default defineNuxtModule<ModuleOptions>({
       'vuetify-nuxt-module',
     );
 
-    addImports({
-      name: 'MessageType',
-      from: resolver.resolve(
-        'runtime',
-        'enums',
-        'message-type',
-      ),
-    });
 
-    addImportsDir(
-      resolver.resolve(
-        'runtime',
-        'composables',
-      ),
+    const { resolve } = createResolver(
+      import.meta.url,
     );
+
+    addImports([
+      {
+        name: 'MessageType',
+        from: resolve(
+          'runtime',
+          'enums',
+          'message-type',
+        ),
+      },
+      {
+        name: 'addMessage',
+        from: resolve(
+          'runtime',
+          'composables',
+          'add-message',
+        ),
+      },
+      {
+        name: 'removeMessage',
+        from: resolve(
+          'runtime',
+          'composables',
+          'remove-message',
+        ),
+      },
+    ]);
 
     addComponent({
       name: 'SnackbarMessages',
-      filePath: resolver.resolve(
+      filePath: resolve(
         'runtime',
         'components',
         'SnackbarMessageList.vue',

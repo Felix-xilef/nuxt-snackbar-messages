@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "snackbar-messages-playground",
+  "name": "nuxt-snackbar-messages-playground",
   "type": "module",
   "scripts": {
     "dev": "nuxi dev",

@@ -3,7 +3,7 @@ Get your module up and running quickly.
 
 Find and replace all on all files (CMD+SHIFT+F):
 - Name: My Module
-- Package name: snackbar-messages
+- Package name: nuxt-snackbar-messages
 - Description: My new Nuxt module
 -->
 
@@ -17,7 +17,7 @@ Find and replace all on all files (CMD+SHIFT+F):
 My new Nuxt module for doing amazing things.
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
-<!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/snackbar-messages?file=playground%2Fapp.vue) -->
+<!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/nuxt-snackbar-messages?file=playground%2Fapp.vue) -->
 <!-- - [📖 &nbsp;Documentation](https://example.com) -->
 
 ## Features
@@ -32,7 +32,7 @@ My new Nuxt module for doing amazing things.
 Install the module to your Nuxt application with one command:
 
 ```bash
-npx nuxi module add snackbar-messages
+npx nuxi module add nuxt-snackbar-messages
 ```
 
 That's it! You can now use My Module in your Nuxt app ✨
@@ -71,14 +71,14 @@ That's it! You can now use My Module in your Nuxt app ✨
 
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/snackbar-messages/latest.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-version-href]: https://npmjs.com/package/snackbar-messages
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-snackbar-messages/latest.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-version-href]: https://npmjs.com/package/nuxt-snackbar-messages
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/snackbar-messages.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-downloads-href]: https://npm.chart.dev/snackbar-messages
+[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-snackbar-messages.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-downloads-href]: https://npm.chart.dev/nuxt-snackbar-messages
 
-[license-src]: https://img.shields.io/npm/l/snackbar-messages.svg?style=flat&colorA=020420&colorB=00DC82
-[license-href]: https://npmjs.com/package/snackbar-messages
+[license-src]: https://img.shields.io/npm/l/nuxt-snackbar-messages.svg?style=flat&colorA=020420&colorB=00DC82
+[license-href]: https://npmjs.com/package/nuxt-snackbar-messages
 
 [nuxt-src]: https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js
 [nuxt-href]: https://nuxt.com

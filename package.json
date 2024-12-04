@@ -1,8 +1,8 @@
 {
-  "name": "snackbar-messages",
+  "name": "nuxt-snackbar-messages",
   "version": "1.0.0",
   "description": "My new Nuxt module",
-  "repository": "your-org/snackbar-messages",
+  "repository": "Felix-xilef/nuxt-snackbar-messages",
   "license": "MIT",
   "type": "module",
   "exports": {

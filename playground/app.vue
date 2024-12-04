@@ -1,8 +1,24 @@
+<script setup lang="ts">
+function createAlert() {
+  addMessage({
+    type: MessageType.Error,
+    message: 'haa',
+  });
+}
+</script>
+
 <template>
-  <div>
+  <v-app>
+    <v-btn
+      text="New Alert"
+      @click="createAlert()"
+    ></v-btn>
+
     Nuxt module playground!
-  </div>
+
+    <SnackbarMessages />
+  </v-app>
 </template>
 
-<script setup>
-</script>
+<style scoped lang="scss">
+</style>

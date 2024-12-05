@@ -1,6 +1,6 @@
 {
   "name": "nuxt-snackbar-messages",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "snackbar messages module for nuxt",
   "repository": "Felix-xilef/nuxt-snackbar-messages",
   "license": "MIT",

@@ -2,7 +2,7 @@ import { addComponent, addImports, createResolver, defineNuxtModule, installModu
 
 export default defineNuxtModule({
   meta: {
-    name: 'snackbar-messages',
+    name: 'snackbar-messages-nuxt',
     configKey: 'snackbarMessages',
   },
 

@@ -7160,29 +7160,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-snackbar-messages@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "nuxt-snackbar-messages@workspace:."
-  dependencies:
-    "@nuxt/devtools": "npm:^1.6.3"
-    "@nuxt/eslint-config": "npm:^0.7.2"
-    "@nuxt/kit": "npm:^3.14.1592"
-    "@nuxt/module-builder": "npm:^0.8.4"
-    "@nuxt/schema": "npm:^3.14.1592"
-    "@nuxt/test-utils": "npm:^3.14.4"
-    "@pinia/nuxt": "npm:0.9.0"
-    "@types/node": "npm:latest"
-    changelogen: "npm:^0.5.7"
-    eslint: "npm:^9.16.0"
-    nuxt: "npm:^3.14.1592"
-    pinia: "npm:^2.3.0"
-    typescript: "npm:latest"
-    vitest: "npm:^2.1.8"
-    vue-tsc: "npm:^2.1.10"
-    vuetify-nuxt-module: "npm:0.18.3"
-  languageName: unknown
-  linkType: soft
-
 "nuxt@npm:^3.14.1592":
   version: 3.14.1592
   resolution: "nuxt@npm:3.14.1592"
@@ -8759,6 +8736,29 @@ __metadata:
   checksum: 10c0/a1067f23265812de8357ed27312101af49b89129eb973e3f26ab5856ea774f88cace13342e66e32470f933ccfa916e0e9d0f7ca8bbd4f92dfab2af45c15956c2
   languageName: node
   linkType: hard
+
+"snackbar-messages-nuxt@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "snackbar-messages-nuxt@workspace:."
+  dependencies:
+    "@nuxt/devtools": "npm:^1.6.3"
+    "@nuxt/eslint-config": "npm:^0.7.2"
+    "@nuxt/kit": "npm:^3.14.1592"
+    "@nuxt/module-builder": "npm:^0.8.4"
+    "@nuxt/schema": "npm:^3.14.1592"
+    "@nuxt/test-utils": "npm:^3.14.4"
+    "@pinia/nuxt": "npm:0.9.0"
+    "@types/node": "npm:latest"
+    changelogen: "npm:^0.5.7"
+    eslint: "npm:^9.16.0"
+    nuxt: "npm:^3.14.1592"
+    pinia: "npm:^2.3.0"
+    typescript: "npm:latest"
+    vitest: "npm:^2.1.8"
+    vue-tsc: "npm:^2.1.10"
+    vuetify-nuxt-module: "npm:0.18.3"
+  languageName: unknown
+  linkType: soft
 
 "socks-proxy-agent@npm:^8.0.3":
   version: 8.0.4

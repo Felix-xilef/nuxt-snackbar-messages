@@ -5,6 +5,12 @@
   "repository": "Felix-xilef/nuxt-snackbar-messages",
   "license": "MIT",
   "type": "module",
+  "keywords": [
+    "nuxt",
+    "vue",
+    "snackbar",
+    "messages"
+  ],
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",

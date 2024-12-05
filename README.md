@@ -1,70 +1,57 @@
-<!--
-Get your module up and running quickly.
+# Nuxt Snackbar Messages
 
-Find and replace all on all files (CMD+SHIFT+F):
-- Name: My Module
-- Package name: nuxt-snackbar-messages
-- Description: My new Nuxt module
--->
-
-# My Module
-
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
+<!-- [![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href] -->
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-My new Nuxt module for doing amazing things.
+A module that makes it easy to add and use snackbar messages at a nuxt application.
 
-- [✨ &nbsp;Release Notes](/CHANGELOG.md)
+> This module currently depends on `@pinia/nuxt` and `vuetify-nuxt-module`
+
+<!-- - [✨ &nbsp;Release Notes](/CHANGELOG.md) -->
 <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/nuxt-snackbar-messages?file=playground%2Fapp.vue) -->
 <!-- - [📖 &nbsp;Documentation](https://example.com) -->
 
 ## Features
 
-<!-- Highlight some of the features your module provide here -->
-- ⛰ &nbsp;Foo
-- 🚠 &nbsp;Bar
-- 🌲 &nbsp;Baz
+- Easy to use add and remove messages functions
+- Messages easily displayed with the used of a single component
+- 4 types of messages: `Error`, `Info`, `Warn`, `Success`
+- Optional timeout for messages
 
 ## Quick Setup
+
+**Before installing the module it is necessary to install the nuxt modules `pinia` and `vuetify-nuxt-module`.**
 
 Install the module to your Nuxt application with one command:
 
 ```bash
-npx nuxi module add nuxt-snackbar-messages
+yarn dlx nuxi module add https://github.com/Felix-xilef/nuxt-snackbar-messages
 ```
 
-That's it! You can now use My Module in your Nuxt app ✨
+That's it! You can now use Nuxt Snackbar Messages in your Nuxt app ✨
 
-
-## Contribution
 
 <details>
-  <summary>Local development</summary>
-  
+  <summary>
+    <strong>
+      Local development
+    </strong>
+  </summary>
+
   ```bash
   # Install dependencies
-  npm install
-  
+  yarn install
+
   # Generate type stubs
-  npm run dev:prepare
-  
+  yarn dev:prepare
+
   # Develop with the playground
-  npm run dev
-  
+  yarn dev
+
   # Build the playground
-  npm run dev:build
-  
-  # Run ESLint
-  npm run lint
-  
-  # Run Vitest
-  npm run test
-  npm run test:watch
-  
-  # Release new version
-  npm run release
+  yarn dev:build
   ```
 
 </details>
@@ -77,8 +64,8 @@ That's it! You can now use My Module in your Nuxt app ✨
 [npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-snackbar-messages.svg?style=flat&colorA=020420&colorB=00DC82
 [npm-downloads-href]: https://npm.chart.dev/nuxt-snackbar-messages
 
-[license-src]: https://img.shields.io/npm/l/nuxt-snackbar-messages.svg?style=flat&colorA=020420&colorB=00DC82
-[license-href]: https://npmjs.com/package/nuxt-snackbar-messages
+[license-src]: https://img.shields.io/npm/l/nuxt.svg?style=flat&colorA=020420&colorB=00DC82
+[license-href]: ./LICENSE
 
 [nuxt-src]: https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js
 [nuxt-href]: https://nuxt.com

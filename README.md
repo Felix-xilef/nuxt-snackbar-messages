@@ -27,7 +27,7 @@ A module that makes it easy to add and use snackbar messages at a nuxt applicati
 Install the module to your Nuxt application with one command:
 
 ```bash
-yarn dlx nuxi module add https://github.com/Felix-xilef/nuxt-snackbar-messages
+yarn dlx nuxi module add nuxt-snackbar-messages
 ```
 
 That's it! You can now use Nuxt Snackbar Messages in your Nuxt app ✨

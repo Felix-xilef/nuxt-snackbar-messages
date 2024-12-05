@@ -1,7 +1,7 @@
 # Nuxt Snackbar Messages
 
-<!-- [![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href] -->
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
@@ -32,7 +32,7 @@ yarn dlx nuxi module add vuetify-nuxt-module
 Then install the module to your Nuxt application with one command:
 
 ```bash
-yarn dlx nuxi module add nuxt-snackbar-messages
+yarn dlx nuxi module add snackbar-messages-nuxt
 ```
 
 That's it! You can now use Nuxt Snackbar Messages in your Nuxt app ✨
@@ -109,11 +109,11 @@ removeMessage(
 </details>
 
 <!-- Links -->
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-snackbar-messages/latest.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-version-href]: https://npmjs.com/package/nuxt-snackbar-messages
+[npm-version-src]: https://img.shields.io/npm/v/snackbar-messages-nuxt/latest.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-version-href]: https://npmjs.com/package/snackbar-messages-nuxt
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-snackbar-messages.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-downloads-href]: https://npm.chart.dev/nuxt-snackbar-messages
+[npm-downloads-src]: https://img.shields.io/npm/dm/snackbar-messages-nuxt.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-downloads-href]: https://npm.chart.dev/snackbar-messages-nuxt
 
 [license-src]: https://img.shields.io/npm/l/nuxt.svg?style=flat&colorA=020420&colorB=00DC82
 [license-href]: ./LICENSE
